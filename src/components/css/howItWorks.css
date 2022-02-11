@@ -1,0 +1,48 @@
+.howItWorksPara {
+    font-size: 17px !important;
+}
+
+#howItWorksFirstCardImage {
+    width: 256px;
+    height: 186px;    
+}
+
+#howItWorksFirstCardImage:hover {
+    content: url("./../../assets/img/imageonline-co-transparentimage.png");
+}
+
+#howItWorksSecondCardImage:hover {
+    content: url("./../../assets/img/logo.png");
+}
+
+#howItWorksThirdCardImage:hover {
+    content: url("./../../assets/img/logo.png");
+}
+
+#howItWorksFourthCardImage:hover {
+    content: url("./../../assets/img/logo.png");
+}
+
+#howItWorksFifthCardImage:hover {
+    content: url("./../../assets/img/logo.png");
+}
+
+#howItWorksSixthCardImage:hover {
+    content: url("./../../assets/img/logo.png");
+}
+
+#howItWorksSeventhCardImage:hover {
+    content: url("./../../assets/img/logo.png");
+}
+
+#howItWorksEighthCardImage:hover {
+    content: url("./../../assets/img/logo.png");
+}
+
+#howItWorksNinthCardImage:hover {
+    content: url("./../../assets/img/logo.png");
+}
+
+#howItWorksTenthCardImage:hover {
+    content: url("./../../assets/img/logo.png");
+}

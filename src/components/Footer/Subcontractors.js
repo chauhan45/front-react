@@ -1,0 +1,51 @@
+import { React, useEffect } from 'react'
+import building2 from "../../assets/img/illustrations/Sub-Contractors.jpg";
+import Fade from "react-reveal/Fade";
+
+const Subcontractors = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+    return (
+        <>
+            <section id="Subcontractors" class="pt-4 pt-md-11 pt-40 pb-30 mb-50 ">
+                <h1 className="text-center Construction_text mb-20 pt-xs-100 mb-100 SubcontractorsText">Sub-Contractors</h1>
+                <div className="container">
+                    <div className="row align-items-center">
+                        <Fade bottom>
+                            <div class="container pb-0 pt-26 justify-content-center">
+                                <div class="row align-items-center  justify-content-center">
+                                    {/* Content left */}
+                                    <div class="col-12 col-md-6 ">
+                                        <div class="how">
+                                            <img
+                                                src={building2}
+                                                className="img-fluid  pt-xs-80 p-xs-30 justify-content-center sech_image"
+                                                alt="..."
+                                                data-aos-delay="100"
+                                            />
+                                        </div>
+                                    </div>
+                                    {/* Content right */}
+                                    <div class="col-12 col-md-6 justify-content-center">
+                                        <h2 class="text-center text-md-start mb-20 pr-20 Construction_text ">
+                                            Visually Validate Bill Of Materials
+                                        </h2>
+                                        <h2 class="lead text-center text-md-start mb-6 mb-lg-8 mb-40 Construction_text2 Construction_text1">
+                                            Gives a complete bill of materials based upon assembly
+                                            codes, structural materials, or categories. All costs
+                                            of construction are listed in detail and can be easily
+                                            edit as needed.
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </Fade>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}
+
+export default Subcontractors;
